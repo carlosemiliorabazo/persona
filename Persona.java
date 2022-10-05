@@ -3,6 +3,8 @@ public class Persona {
     private String apellidos;
     private int dniSinLetra;
     private int edad;
+    private int codPostal;
+
 
     public String getNombre(){
         return nombre;
@@ -39,5 +41,13 @@ public class Persona {
             System.out.println("Ya eres talludito");
         }
         this.edad = ed;
+    }
+
+    public int getCodPostal() {
+        return codPostal;
+    }
+
+    public void setCodPostal(int codPostal) {
+        this.codPostal = codPostal;
     }
 }
