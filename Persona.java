@@ -3,6 +3,9 @@ public class Persona {
     private String apellidos;
     private int dniSinLetra;
     private int edad;
+    private String universidad;
+
+    public String getUniversidad() { return universidad; }
 
     public String getNombre(){
         return nombre;
@@ -19,6 +22,8 @@ public class Persona {
     public int getEdad(){
         return edad;
     }
+
+    public void setUniversidad(String uni) {this.universidad = uni; }
 
     public void setNombre(String nom){
         this.nombre = nom;
