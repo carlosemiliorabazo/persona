@@ -12,6 +12,8 @@ public class Main {
         p.setDniSinLetra(Integer.parseInt(sc.nextLine()));
         System.out.println("Escribe tu edad: ");
         p.setEdad(Integer.parseInt(sc.nextLine()));
+        System.out.println("Escribe tu dirección: ");
+        p.setDireccion(sc.nextLine());
 
 
 

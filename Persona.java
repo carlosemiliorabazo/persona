@@ -36,6 +36,8 @@ public class Persona {
         this.dniSinLetra = dni;
     }
 
+    public void setDireccion(String direccion) { this.direccion = direccion; }
+
     public void setEdad(int ed){
         if (ed >= 18){
             System.out.println("Estás hecho un chaval");
