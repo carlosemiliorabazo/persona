@@ -1,6 +1,7 @@
 public class Persona {
     private String nombre;
     private String apellidos;
+    private String estudios;
     private int dniSinLetra;
     private int edad;
 
@@ -30,6 +31,13 @@ public class Persona {
 
     public void setDniSinLetra(int dni){
         this.dniSinLetra = dni;
+    }
+
+    public void setEstudios(String estudios){
+        this.estudios = estudios;
+    }
+    public String getEstudios(){
+        return estudios;
     }
 
     public void setEdad(int ed){
