@@ -3,6 +3,8 @@ public class Persona {
     private String apellidos;
     private int dniSinLetra;
     private int edad;
+    private String nacionalidad;
+
     private String contraseniaBanco;
 
     public String getNombre(){
@@ -24,6 +26,10 @@ public class Persona {
         return contraseniaBanco;
     }
 
+    public String getNacionalidad(){
+        return nacionalidad;
+    }
+
     public void setNombre(String nom){
         this.nombre = nom;
     }
@@ -37,6 +43,10 @@ public class Persona {
     }
     public void setContra(String cont){
         this.contraseniaBanco = cont;
+    }
+
+    public void setNacionalidad(){
+        this.nacionalidad = nacionalidad;
     }
 
     public void setEdad(int ed){
