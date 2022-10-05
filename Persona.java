@@ -3,7 +3,9 @@ public class Persona {
     private String apellidos;
     private int dniSinLetra;
     private int edad;
+    private String direccion;
 
+    //Metodo get de nombre
     public String getNombre(){
         return nombre;
     }
@@ -15,6 +17,8 @@ public class Persona {
     public int getDniSinLetra(){
         return dniSinLetra;
     }
+
+    public String getDireccion() { return direccion; }
 
     public int getEdad(){
         return edad;

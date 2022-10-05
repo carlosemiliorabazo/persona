@@ -13,6 +13,8 @@ public class Main {
         System.out.println("Escribe tu edad: ");
         p.setEdad(Integer.parseInt(sc.nextLine()));
 
+
+
         System.out.println("Buenos dias : " + p.getNombre() + " " + p.getApellidos() + " con dni: " + String.valueOf(p.getDniSinLetra()) + " y edad:" + String.valueOf(p.getEdad()) + " años");
     }
 }
