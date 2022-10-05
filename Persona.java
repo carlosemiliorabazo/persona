@@ -3,6 +3,7 @@ public class Persona {
     private String apellidos;
     private int dniSinLetra;
     private int edad;
+    private String nacionalidad;
 
     private double alt;
 
@@ -22,6 +23,10 @@ public class Persona {
         return edad;
     }
 
+    public String getNacionalidad(){
+        return nacionalidad;
+    }
+
     public void setNombre(String nom){
         this.nombre = nom;
     }
@@ -34,8 +39,14 @@ public class Persona {
         this.dniSinLetra = dni;
     }
 
+
     public Double getAltura(){
         return alt;
+    }
+    
+    public void setNacionalidad(){
+        this.nacionalidad = nacionalidad;
+
     }
 
     public void setEdad(int ed){
