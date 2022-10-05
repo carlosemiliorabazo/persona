@@ -4,7 +4,7 @@ public class Persona {
     private int dniSinLetra;
     private int edad;
 
-    private String comidaFavorita;
+    private int comidaFavorita;
 
     public String getNombre(){
         return nombre;
@@ -34,9 +34,9 @@ public class Persona {
         this.dniSinLetra = dni;
     }
 
-    public void setComidaFavorita(String comida) { this.comidaFavorita = comida;}
+    public void setComidaFavorita(string comida) { this.ComidaFavorita = comida;}
 
-    public String getComidaFavorita() { return comidaFavorita; }
+    public void getComidaFavorita() { return ComidaFavorita; }
 
     public void setEdad(int ed){
         if (ed >= 18){
