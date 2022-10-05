@@ -4,6 +4,8 @@ public class Persona {
     private int dniSinLetra;
     private int edad;
 
+    private String LoL;
+
     public String getNombre(){
         return nombre;
     }
@@ -20,6 +22,10 @@ public class Persona {
         return edad;
     }
 
+    public String getLoL(){
+        return LoL;
+    }
+
     public void setNombre(String nom){
         this.nombre = nom;
     }
@@ -30,6 +36,10 @@ public class Persona {
 
     public void setDniSinLetra(int dni){
         this.dniSinLetra = dni;
+    }
+
+    public String setLoL(String LoL){
+        this.LoL = LoL;
     }
 
     public void setEdad(int ed){
