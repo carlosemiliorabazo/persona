@@ -3,6 +3,7 @@ public class Persona {
     private String apellidos;
     private int dniSinLetra;
     private int edad;
+    private int codpostal;
 
     public String getNombre(){
         return nombre;
@@ -18,6 +19,12 @@ public class Persona {
 
     public int getEdad(){
         return edad;
+    }
+    public int getCodpostal(){
+        return codpostal;
+    }
+    public void setCodpostal(int codpostal){
+        this.codpostal = codpostal;
     }
 
     public void setNombre(String nom){
