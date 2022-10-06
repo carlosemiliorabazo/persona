@@ -1,22 +1,28 @@
 package Persona3;
 
 public class Persona {
-    // Poniendo un comentari
+    // Attributes
+
     private String nombre;
     private String apellidos;
     private int dnisinletra;
     private int edad;
     private String comidaFavorita;
     private String nacionalidad;
-
-    private int hijos;
-    private int telefono;
+    private String coche;
+    private String LoL;
+    private int numHijos;
+    private int numTel;
+    private String universidad;
+    private int altura;
     private String signozodiaco;
     private int peso;
     private int numeroSeguridadSocial;
     private string estado_civil;
 
 
+
+    // Get Methods
     public String getNombre(){
         return nombre;
     }
@@ -45,12 +51,12 @@ public class Persona {
         return nacionalidad;
     }
 
-    public int getHijos() {
-        return hijos;
+    public int getNumTel(){
+        return numTel;
     }
 
-    public int getTelefono(){
-        return telefono;
+    public String getLoL(){
+        return LoL;
     }
 
     public String getSignozodiaco(){
@@ -65,6 +71,20 @@ public class Persona {
         return cp;
     }
 
+    public String getCoche(){
+        return coche;
+    }
+
+    public int getNumHijos(){
+        return numHijos;
+    }
+    
+    public int getAltura() {
+        return altura;
+    }
+
+
+    // Set Methods
     public void setNombre(String nom){
         this.nombre = nom;
     }
@@ -94,11 +114,25 @@ public class Persona {
     public void setEstudios(String estudios){
         this.estudios = estudios;
     }
+
     public String getEstudios() {
         return estudios;
     }
+
+    public void setLoL(String LoL){
+        this.LoL = LoL;
+    }
+
+    public void setnumTel(int numTel){
+        this.numTel = numTel;
+    }
+
     public void setNacionalidad(){
         this.nacionalidad = nacionalidad;
+    }
+
+    public void setCoche(){
+        this.coche = coche;
     }
 
     public void setEdad(int ed){
@@ -109,31 +143,21 @@ public class Persona {
             System.out.println("El cola cao no esta tan mal \n");
         }
         this.edad = ed;
-	}
+	  }
 	
-
-
-
     public void setNacionalidad(String nac){
         this.nacionalidad = nac;
     }
-
-    public void setHijos(int hj) {
-        if (hj>3){
-            System.out.println("Eres familia numerosa \n");
-        }
-        this.hijos = hj;
-    }
-
-    public void setTelefono(int tlf){
-        this.telefono = tlf;
-    }
-
 
     public void setSignozodiaco(String signozodiaco){
         this.signozodiaco = signozodiaco;
     }
 
-   
+    public int setNumHijos(){
+        this.getNumHijos = numHijos;
+    }
 
+    public void setAltura(int altura) {
+        this.altura = altura;
+    }
 }
