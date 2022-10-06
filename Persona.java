@@ -36,7 +36,7 @@ public class Persona {
         return nacionalidad;
     }
 
-    public Srting getDireccion(){ return direccion; }
+    public String getDireccion(){ return direccion; }
 
     public void setNombre(String nom){
         this.nombre = nom;
