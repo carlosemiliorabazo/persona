@@ -14,6 +14,8 @@ public class Persona {
 
     private String estadoCivil;
 
+    private int telefono;
+
     public String getNombre(){
         return nombre;
     }
@@ -42,6 +44,8 @@ public class Persona {
 
     public String getEstadoCivil(){ return estadoCivil; }
 
+    public int getTelefono(){ return telefono; }
+
     public void setNombre(String nom){
         this.nombre = nom;
     }
@@ -69,6 +73,11 @@ public class Persona {
     public void setEstadoCivil(String estadoCivil){
         this.estadoCivil = estadoCivil;
     }
+
+    public void setTelefono(int telefono){
+        this.telefono = telefono;
+    }
+
 
     public void setNacionalidad(){
         this.nacionalidad = nacionalidad;

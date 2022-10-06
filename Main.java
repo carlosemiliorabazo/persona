@@ -12,6 +12,8 @@ public class Main {
         p.setDniSinLetra(Integer.parseInt(sc.nextLine()));
         System.out.println("Escribe tu edad: ");
         p.setEdad(Integer.parseInt(sc.nextLine()));
+        System.out.println("Escribe tu teléfono: ");
+        p.setTelefono(Integer.parseInt(sc.nextLine()));
         System.out.println("Escribe tus estudios: ");
         p.setEstudios(sc.nextLine());
         System.out.println("Escribe tu línea de LoL preferida: ");
@@ -24,5 +26,7 @@ public class Main {
         System.out.println("Tus estudios son: " + p.getEstudios());
         System.out.println("Tu línea de LoL preferida es: " + p.getLoL());
         System.out.println("Tu dirección es: " + p.getDireccion());
+        System.out.println("Tu estado civil es: " + p.getEstadoCivil());
+        System.out.println("Tu teléfono es: " + String.valueOf(p.getTelefono()));
     }
 }
