@@ -6,6 +6,7 @@ public class Persona {
     private int edad;
     private String nacionalidad;
 
+    private String genero;
     private String LoL;
 
     private String universidad;
@@ -30,6 +31,9 @@ public class Persona {
         return LoL;
     }
 
+    public String getGenero(){
+        return genero;
+    }
     public String getNacionalidad(){
         return nacionalidad;
     }
@@ -54,6 +58,10 @@ public class Persona {
     }
     public void setLoL(String LoL){
         this.LoL = LoL;
+    }
+
+    public void setGenero(String genero){
+        this.genero = genero;
     }
 
     public void setNacionalidad(){
