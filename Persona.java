@@ -1,4 +1,5 @@
 public class Persona {
+    // Attributes
     private String nombre;
     private String apellidos;
     private String estudios;
@@ -8,12 +9,12 @@ public class Persona {
     private String coche;
     private String LoL;
     private int numHijos;
-
     private int numTel;
-
     private String universidad;
     private int altura;
 
+
+    // Get Methods
     public String getNombre(){
         return nombre;
     }
@@ -50,6 +51,8 @@ public class Persona {
         return numHijos;
     }
 
+
+    // Set Methods
     public void setNombre(String nom){
         this.nombre = nom;
     }
@@ -65,9 +68,11 @@ public class Persona {
     public void setEstudios(String estudios){
         this.estudios = estudios;
     }
+
     public String getEstudios() {
         return estudios;
     }
+
     public void setLoL(String LoL){
         this.LoL = LoL;
     }
@@ -101,9 +106,9 @@ public class Persona {
         this.universidad = universidad;
     }
 
-
     public int setNumHijos(){
         this.getNumHijos = numHijos;
+    }
 
     public int getAltura() {
         return altura;
