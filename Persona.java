@@ -8,6 +8,8 @@ public class Persona {
 
     private String LoL;
 
+    private String universidad;
+
     public String getNombre(){
         return nombre;
     }
@@ -65,5 +67,13 @@ public class Persona {
             System.out.println("Ya eres talludito");
         }
         this.edad = ed;
+    }
+
+    public String getUniversidad() {
+        return universidad;
+    }
+
+    public void setUniversidad(String universidad) {
+        this.universidad = universidad;
     }
 }
