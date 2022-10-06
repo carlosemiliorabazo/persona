@@ -5,7 +5,11 @@ public class Persona {
     private int dniSinLetra;
     private int edad;
     private String nacionalidad;
+
     private String hobbie;
+
+    private String cp;
+
     private String LoL;
 
     private String universidad;
@@ -32,6 +36,10 @@ public class Persona {
 
     public String getNacionalidad(){
         return nacionalidad;
+    }
+
+    public String getCodPostal(){
+        return cp;
     }
 
     public void setNombre(String nom){
@@ -75,5 +83,8 @@ public class Persona {
 
     public void setUniversidad(String universidad) {
         this.universidad = universidad;
+    }
+    public String setCodPostal(){
+        this.cp = cp;
     }
 }
