@@ -19,5 +19,7 @@ public class Main {
         System.out.println("Buenos dias : " + p.getNombre() + " " + p.getApellidos() + " con dni: " + String.valueOf(p.getDniSinLetra()) + " y edad:" + String.valueOf(p.getEdad()) + " años");
         System.out.println("Tus estudios son: " + p.getEstudios());
         System.out.println("Tu línea de LoL preferida es: " + p.getLoL());
+        System.out.println("Tu numero de hermanos s: " + p.getNumHermanos());
+
     }
 }

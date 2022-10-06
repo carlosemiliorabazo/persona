@@ -10,6 +10,10 @@ public class Persona {
 
     private String universidad;
 
+
+    private int numHermanos;
+
+
     public String getNombre(){
         return nombre;
     }
@@ -34,6 +38,7 @@ public class Persona {
         return nacionalidad;
     }
 
+    public int getNumHermanos(){return numHermanos;}
     public void setNombre(String nom){
         this.nombre = nom;
     }
@@ -76,4 +81,9 @@ public class Persona {
     public void setUniversidad(String universidad) {
         this.universidad = universidad;
     }
+
+    public void setnumHermanos(int NumH) {
+        this.numHermanos = NumH;
+    }
+
 }
