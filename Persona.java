@@ -6,6 +6,8 @@ public class Persona {
     private int edad;
     private String nacionalidad;
 
+    private string mascota;
+
     private String LoL;
 
     private String universidad;
@@ -49,6 +51,8 @@ public class Persona {
     public void setEstudios(String estudios){
         this.estudios = estudios;
     }
+
+    public void setMascota(String mascota){this.mascota = mascota;}
     public String getEstudios() {
         return estudios;
     }
