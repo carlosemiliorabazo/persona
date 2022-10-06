@@ -18,9 +18,13 @@ public class Main {
         p.setLoL(sc.nextLine());
         System.out.println("Escribe tu color de pelo: ");
         p.setColorPelo(sc.nextLine());
+        System.out.println("Escribe tu piloto favorito: ");
+        p.setPilotoFavorito(sc.nextLine());
+
         System.out.println("Buenos dias : " + p.getNombre() + " " + p.getApellidos() + " con dni: " + String.valueOf(p.getDniSinLetra()) + " y edad:" + String.valueOf(p.getEdad()) + " años");
         System.out.println("Tus estudios son: " + p.getEstudios());
         System.out.println("Tu línea de LoL preferida es: " + p.getLoL());
         System.out.println("Tu color de pelo es: " + p.getColorPelo());
+        System.out.println("Tu piloto favorito es " + p.getPilotoFavorito());
     }
 }

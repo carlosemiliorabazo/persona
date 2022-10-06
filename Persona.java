@@ -10,6 +10,7 @@ public class Persona {
 
     private String universidad;
     private String colorPelo;
+    private String pilotoFavorito;
 
     public String getNombre(){
         return nombre;
@@ -85,5 +86,13 @@ public class Persona {
 
     public void setColorPelo(String colorPelo) {
         this.colorPelo = colorPelo;
+    }
+
+    public String getPilotoFavorito() {
+        return pilotoFavorito;
+    }
+
+    public void setPilotoFavorito(String pilotoFavorito) {
+        this.pilotoFavorito = pilotoFavorito;
     }
 }
