@@ -39,7 +39,6 @@ public class Persona {
     public int getEdad(){
         return edad;
     }
-
     public String getNacionalidad(){
         return nacionalidad;
     }
@@ -86,14 +85,27 @@ public class Persona {
         this.estado_civil = Estado_civil;
     }
 
+    public void setEstudios(String estudios){
+        this.estudios = estudios;
+    }
+    public String getEstudios() {
+        return estudios;
+    }
+    public void setNacionalidad(){
+        this.nacionalidad = nacionalidad;
+    }
+
     public void setEdad(int ed){
         if (ed >= 21){
             System.out.println("Ya puedes beber y votar en los EEUU \n");
-        } else {
+        } 
+		else {
             System.out.println("El cola cao no esta tan mal \n");
         }
         this.edad = ed;
-    }
+	}
+	
+
 
 
     public void setNacionalidad(String nac){
@@ -115,7 +127,5 @@ public class Persona {
         this.signozodiaco = signozodiaco;
     }
 
-    public void setPeso(int pes){
-        this.peso = pes;
-    }
+   
 }
