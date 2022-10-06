@@ -12,6 +12,8 @@ public class Persona {
 
     private String universidad;
 
+    private String estadoCivil;
+
     public String getNombre(){
         return nombre;
     }
@@ -38,6 +40,8 @@ public class Persona {
 
     public String getDireccion(){ return direccion; }
 
+    public String getEstadoCivil(){ return estadoCivil; }
+
     public void setNombre(String nom){
         this.nombre = nom;
     }
@@ -60,7 +64,10 @@ public class Persona {
         this.LoL = LoL;
     }
     public void setDireccion(String direccion){
-        this.LoL = LoL;
+        this.direccion = direccion;
+    }
+    public void setEstadoCivil(String estadoCivil){
+        this.estadoCivil = estadoCivil;
     }
 
     public void setNacionalidad(){

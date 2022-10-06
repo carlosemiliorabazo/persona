@@ -18,6 +18,8 @@ public class Main {
         p.setLoL(sc.nextLine());
         System.out.println("Escribe tu dirección: ");
         p.setDireccion(sc.nextLine());
+        System.out.println("Escribe tu estado civil: ");
+        p.setEstadoCivil(sc.nextLine());
         System.out.println("Buenos dias : " + p.getNombre() + " " + p.getApellidos() + " con dni: " + String.valueOf(p.getDniSinLetra()) + " y edad:" + String.valueOf(p.getEdad()) + " años");
         System.out.println("Tus estudios son: " + p.getEstudios());
         System.out.println("Tu línea de LoL preferida es: " + p.getLoL());
