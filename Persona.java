@@ -116,6 +116,5 @@ public class Persona {
 
     public void setAltura(int altura) {
         this.altura = altura;
-
     }
 }
