@@ -8,6 +8,7 @@ public class Persona {
     private int edad;
     private String comidaFavorita;
     private String nacionalidad;
+    private String colorOjos;
 
     private int hijos;
     private int telefono;
@@ -16,6 +17,8 @@ public class Persona {
     private int numeroSeguridadSocial;
     private string estado_civil;
 
+
+    public String getColorOjos(){return colorOjos;}
 
     public String getNombre(){
         return nombre;
@@ -97,6 +100,12 @@ public class Persona {
     public String getEstudios() {
         return estudios;
     }
+    
+    public String setcolorOjos(String ojos){this.colorOjos = ojos; }
+    public void setLoL(String LoL){
+        this.LoL = LoL;
+    }
+
     public void setNacionalidad(){
         this.nacionalidad = nacionalidad;
     }
