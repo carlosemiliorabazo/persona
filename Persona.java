@@ -3,6 +3,8 @@ public class Persona {
     private String apellidos;
     private int dniSinLetra;
     private int edad;
+    private int year;
+
 
     public String getNombre(){
         return nombre;
@@ -18,6 +20,9 @@ public class Persona {
 
     public int getEdad(){
         return edad;
+    }
+    public int getYear(){
+        return year;
     }
 
     public void setNombre(String nom){
@@ -38,6 +43,9 @@ public class Persona {
         } else {
             System.out.println("Ya eres talludito");
         }
+        this.edad = ed;
+    }
+    public void setYear(int ed){
         this.edad = ed;
     }
 }
