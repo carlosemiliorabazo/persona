@@ -9,6 +9,16 @@ public class Persona {
     private String LoL;
 
     private String universidad;
+    
+    private String EstadoCivil;
+    
+    public String getEstadoCivil()
+    {
+        return EstadoCivil;
+    }
+    public void setEstadoCivil(String EstadoCivil){
+        this.EstadoCivil = EstadoCivil;
+    }
 
     public String getNombre(){
         return nombre;
