@@ -5,7 +5,11 @@ public class Persona {
     private int dniSinLetra;
     private int edad;
     private String nacionalidad;
+
+    private String hobbie;
+
     private String cp;
+
     private String LoL;
 
     private String universidad;
