@@ -12,6 +12,7 @@ public class Persona {
     private int numTel;
 
     private String universidad;
+    private int altura;
 
     public String getNombre(){
         return nombre;
@@ -94,5 +95,13 @@ public class Persona {
 
     public void setUniversidad(String universidad) {
         this.universidad = universidad;
+    }
+
+    public int getAltura() {
+        return altura;
+    }
+
+    public void setAltura(int altura) {
+        this.altura = altura;
     }
 }
