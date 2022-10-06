@@ -10,6 +10,8 @@ public class Persona {
 
     private String universidad;
 
+    private long codigoPostal;
+
     public String getNombre(){
         return nombre;
     }
@@ -75,5 +77,13 @@ public class Persona {
 
     public void setUniversidad(String universidad) {
         this.universidad = universidad;
+    }
+
+    public long getCodigoPostal() {
+        return codigoPostal;
+    }
+
+    public void setCodigoPostal(long codigoPostal) {
+        this.codigoPostal = codigoPostal;
     }
 }
