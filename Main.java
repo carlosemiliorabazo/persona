@@ -1,4 +1,6 @@
+
 import java.util.Scanner;
+
 public class Main {
     public static void main (String[] arg){
         Scanner sc = new Scanner(System.in);
@@ -11,10 +13,16 @@ public class Main {
         p.setDniSinLetra(Integer.parseInt(sc.nextLine()));
         System.out.println("Escribe tu edad: ");
         p.setEdad(Integer.parseInt(sc.nextLine()));
-        System.out.println("Escribe tu comida favorita: ");
-        p.setComidaFavorita(sc.nextLine());
 
+        System.out.println("Escribe tu genero: ");//nuevo cambio
+        p.setGenero(sc.nextLine());
+
+        System.out.println("Escribe tus estudios: ");
+        p.setEstudios(sc.nextLine());
+        System.out.println("Escribe tu línea de LoL preferida: ");
+        p.setLoL(sc.nextLine());
         System.out.println("Buenos dias : " + p.getNombre() + " " + p.getApellidos() + " con dni: " + String.valueOf(p.getDniSinLetra()) + " y edad:" + String.valueOf(p.getEdad()) + " años");
-        System.out.println("Tu comida favorita es: " + p.getComidaFavorita());
+        System.out.println("Tus estudios son: " + p.getEstudios());
+        System.out.println("Tu línea de LoL preferida es: " + p.getLoL());
     }
 }
