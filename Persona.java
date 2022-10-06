@@ -28,11 +28,14 @@ public class Persona {
             if(nombre!=null){
                 name_is_ok=true;
             }
+	return name_is_ok;
     }
     public void setNombre(String nom)
     {
-
-        this.nombre = nom;
+	bool nomb = checkNombre(nom);
+	if(nomb){
+		this.nombre = nom;
+	}
     }
 
     public void setApellidos(String apell){
