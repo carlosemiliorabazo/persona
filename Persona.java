@@ -49,10 +49,10 @@ public class Persona {
     public void setEstudios(String estudios){
         this.estudios = estudios;
     }
-    public String getEstudios(){
+    public String getEstudios() {
         return estudios;
-        
-    public String setLoL(String LoL){
+    }
+    public void setLoL(String LoL){
         this.LoL = LoL;
     }
 
