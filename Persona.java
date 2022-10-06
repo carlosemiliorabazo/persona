@@ -4,7 +4,7 @@ public class Persona {
     private int dniSinLetra;
     private int edad;
     private String nacionalidad;
-
+    private String Calle;
     public String getNombre(){
         return nombre;
     }
@@ -21,6 +21,9 @@ public class Persona {
         return edad;
     }
 
+    public String getCalle(){
+        return Calle;
+    }
     public String getNacionalidad(){
         return nacionalidad;
     }
@@ -39,6 +42,9 @@ public class Persona {
 
     public void setNacionalidad(){
         this.nacionalidad = nacionalidad;
+    }
+    public void setCalle(){
+        this.Calle=Calle;
     }
 
     public void setEdad(int ed){
