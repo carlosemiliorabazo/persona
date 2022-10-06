@@ -10,6 +10,14 @@ public class Persona {
 
     private String universidad;
 
+    private String tipoOrdenador;  // Variable para indicar el tipo de ordenador que tiene cada persona.
+
+    public String getTipoOrdenador() {return  tipoOrdenador; }
+
+    public void setTipoOrdenador(String tipoOrdenador){
+        this.tipoOrdenador = tipoOrdenador;
+    }
+
     public String getNombre(){
         return nombre;
     }
