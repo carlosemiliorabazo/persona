@@ -5,10 +5,13 @@ public class Persona {
     private int dniSinLetra;
     private int edad;
     private String nacionalidad;
+    private String colorOjos;
 
     private String LoL;
 
     private String universidad;
+
+    public String getColorOjos(){return colorOjos;}
 
     public String getNombre(){
         return nombre;
@@ -52,6 +55,7 @@ public class Persona {
     public String getEstudios() {
         return estudios;
     }
+    public String setcolorOjos(String ojos){this.colorOjos = ojos; }
     public void setLoL(String LoL){
         this.LoL = LoL;
     }
