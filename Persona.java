@@ -8,6 +8,8 @@ public class Persona {
 
     private String LoL;
 
+    private String direccion;
+
     private String universidad;
 
     public String getNombre(){
@@ -34,6 +36,8 @@ public class Persona {
         return nacionalidad;
     }
 
+    public Srting getDireccion(){ return direccion; }
+
     public void setNombre(String nom){
         this.nombre = nom;
     }
@@ -53,6 +57,9 @@ public class Persona {
         return estudios;
     }
     public void setLoL(String LoL){
+        this.LoL = LoL;
+    }
+    public void setDireccion(String direccion){
         this.LoL = LoL;
     }
 
