@@ -3,7 +3,8 @@ public class Persona {
     private String apellidos;
     private int dniSinLetra;
     private int edad;
-    private int year;
+    private String genero;
+
 
 
     public String getNombre(){
@@ -21,9 +22,10 @@ public class Persona {
     public int getEdad(){
         return edad;
     }
-    public int getYear(){
-        return year;
+    public String getGenero(){
+        return genero;
     }
+
 
     public void setNombre(String nom){
         this.nombre = nom;
@@ -45,7 +47,9 @@ public class Persona {
         }
         this.edad = ed;
     }
-    public void setYear(int ed){
-        this.edad = ed;
+
+    public void setGenero(String gen){
+        this.genero = gen;
     }
+
 }
