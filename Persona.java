@@ -1,8 +1,12 @@
 public class Persona {
     private String nombre;
     private String apellidos;
+    private String estudios;
     private int dniSinLetra;
     private int edad;
+    private String nacionalidad;
+
+    private String LoL;
 
     private String universidad;
 
@@ -22,6 +26,14 @@ public class Persona {
         return edad;
     }
 
+    public String getLoL(){
+        return LoL;
+    }
+
+    public String getNacionalidad(){
+        return nacionalidad;
+    }
+
     public void setNombre(String nom){
         this.nombre = nom;
     }
@@ -34,8 +46,22 @@ public class Persona {
         this.dniSinLetra = dni;
     }
 
+    public void setEstudios(String estudios){
+        this.estudios = estudios;
+    }
+    public String getEstudios(){
+        return estudios;
+        
+    public String setLoL(String LoL){
+        this.LoL = LoL;
+    }
+
+    public void setNacionalidad(){
+        this.nacionalidad = nacionalidad;
+    }
+
     public void setEdad(int ed){
-        if (ed >= 18){
+        if (ed <= 18){
             System.out.println("Estás hecho un chaval");
         } else {
             System.out.println("Ya eres talludito");
