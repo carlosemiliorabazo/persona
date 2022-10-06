@@ -21,8 +21,16 @@ public class Persona {
     public int getEdad(){
         return edad;
     }
+    public bool checkNombre(String nombre) //Comprueba que el nombre no es nulo
+    {
+        bool name_is_ok=false;
+            if(nombre!=null){
+                name_is_ok=true;
+            }
+    }
+    public void setNombre(String nom)
+    {
 
-    public void setNombre(String nom){
         this.nombre = nom;
     }
 
