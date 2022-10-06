@@ -3,6 +3,7 @@ public class Persona {
     private String apellidos;
     private int dniSinLetra;
     private int edad;
+    private char letradni;
 
     public String getNombre(){
         return nombre;
@@ -18,6 +19,10 @@ public class Persona {
 
     public int getEdad(){
         return edad;
+    }
+
+    public char getletradni (){
+        return letradni;
     }
 
     public void setNombre(String nom){
@@ -39,5 +44,11 @@ public class Persona {
             System.out.println("Ya eres talludito");
         }
         this.edad = ed;
+    }
+    
+    public void setletradni (int dni){
+        int valor= dni%23;
+        char [] letra=new char []{'T','R','W','A','G','M','Y','F','P','D','X','B','N','J','Z','S','Q','V','H','L','C','K','E'};
+        this.letradni = letra[valor];
     }
 }
