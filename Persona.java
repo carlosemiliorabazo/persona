@@ -1,10 +1,13 @@
+package Persona3;
+
 public class Persona {
     // Attributes
+
     private String nombre;
     private String apellidos;
-    private String estudios;
-    private int dniSinLetra;
+    private int dnisinletra;
     private int edad;
+    private String comidaFavorita;
     private String nacionalidad;
     private String coche;
     private String LoL;
@@ -12,6 +15,11 @@ public class Persona {
     private int numTel;
     private String universidad;
     private int altura;
+    private String signozodiaco;
+    private int peso;
+    private int numeroSeguridadSocial;
+    private string estado_civil;
+
 
 
     // Get Methods
@@ -23,12 +31,24 @@ public class Persona {
         return apellidos;
     }
 
-    public int getDniSinLetra(){
+    public int getDnisinletra(){
+        return dnisinletra;
+    }
+    public int getNumeroSeguridadSocial(){
+        return numeroSeguridadSocial;
+    }
+    public string getEstado_civil(){
+        return estado_civil;
+    }
+    public string getcomidaFavorita(){
         return dniSinLetra;
     }
 
     public int getEdad(){
         return edad;
+    }
+    public String getNacionalidad(){
+        return nacionalidad;
     }
 
     public int getNumTel(){
@@ -39,8 +59,16 @@ public class Persona {
         return LoL;
     }
 
-    public String getNacionalidad(){
-        return nacionalidad;
+    public String getSignozodiaco(){
+        return signozodiaco;
+    }
+
+    public int getPeso(){
+        return peso;
+    }
+
+    public String getCodPostal(){
+        return cp;
     }
 
     public String getCoche(){
@@ -50,6 +78,10 @@ public class Persona {
     public int getNumHijos(){
         return numHijos;
     }
+    
+    public int getAltura() {
+        return altura;
+    }
 
 
     // Set Methods
@@ -57,12 +89,26 @@ public class Persona {
         this.nombre = nom;
     }
 
+    public void setcomidaFavorita(String CF){
+        this.comidaFavorita= CF;
+    }
+
     public void setApellidos(String apell){
         this.apellidos = apell;
     }
 
-    public void setDniSinLetra(int dni){
-        this.dniSinLetra = dni;
+    public void setApellidos(String apel){
+        this.apellidos= apel;
+    }
+
+    public void setDnisinletra(int dni){
+        this.dnisinletra = dni;
+    }
+    public void setNumeroSeguridadSocial(int SgiS){
+        this.numeroSeguridadSocial = SS;
+    }
+    public void setNumeroSeguridadSocial(String EstadoCivil){
+        this.estado_civil = Estado_civil;
     }
 
     public void setEstudios(String estudios){
@@ -90,28 +136,25 @@ public class Persona {
     }
 
     public void setEdad(int ed){
-        if (ed <= 18){
-            System.out.println("Estás hecho un chaval");
-        } else {
-            System.out.println("Ya eres talludito");
+        if (ed >= 21){
+            System.out.println("Ya puedes beber y votar en los EEUU \n");
+        } 
+		else {
+            System.out.println("El cola cao no esta tan mal \n");
         }
         this.edad = ed;
+	  }
+	
+    public void setNacionalidad(String nac){
+        this.nacionalidad = nac;
     }
 
-    public String getUniversidad() {
-        return universidad;
-    }
-
-    public void setUniversidad(String universidad) {
-        this.universidad = universidad;
+    public void setSignozodiaco(String signozodiaco){
+        this.signozodiaco = signozodiaco;
     }
 
     public int setNumHijos(){
         this.getNumHijos = numHijos;
-    }
-
-    public int getAltura() {
-        return altura;
     }
 
     public void setAltura(int altura) {
