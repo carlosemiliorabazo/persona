@@ -16,7 +16,7 @@ public class Main {
         p.setEstudios(sc.nextLine());
         System.out.println("Escribe tu línea de LoL preferida: ");
         p.setLoL(sc.nextLine());
-        System.out.println("Buenos dias : " + p.getNombre() + " " + p.getApellidos() + " con dni: " + String.valueOf(p.getDniSinLetra()) + " y edad:" + String.valueOf(p.getEdad()) + " años");
+        System.out.println("Buenos dias : " + p.getNombre() + " " + p.getApellidos() + " con dni: " + String.valueOf(p.getDniSinLetra()) + " edad:" + String.valueOf(p.getEdad()) + " años " + "altura: " + String.valueOf(p.getAltura()) + "m");
         System.out.println("Tus estudios son: " + p.getEstudios());
         System.out.println("Tu línea de LoL preferida es: " + p.getLoL());
     }

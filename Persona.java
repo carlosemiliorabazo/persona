@@ -6,6 +6,8 @@ public class Persona {
     private int edad;
     private String nacionalidad;
 
+ private double alt;
+
     private String LoL;
 
     private String universidad;
@@ -32,6 +34,10 @@ public class Persona {
 
     public String getNacionalidad(){
         return nacionalidad;
+    }
+
+ public Double getAltura(){
+        return alt;
     }
 
     public void setNombre(String nom){
@@ -75,5 +81,15 @@ public class Persona {
 
     public void setUniversidad(String universidad) {
         this.universidad = universidad;
+    }
+
+
+    public void setAltura(double alt){
+        if (alt >= 1.75){
+            System.out.println("Que haces que no juegas en la nba?");
+        } else {
+            System.out.println("Come mas petisuis hermano");
+        }
+        this.alt = alt;
     }
 }
