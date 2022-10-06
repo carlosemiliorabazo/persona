@@ -6,6 +6,7 @@ public class Persona {
     private int edad;
     private String nacionalidad;
 
+    private String CancionFav;
     private String LoL;
 
     private String universidad;
@@ -55,6 +56,14 @@ public class Persona {
     public void setLoL(String LoL){
         this.LoL = LoL;
     }
+
+    public String getCancionFav(){
+        return CancionFav;
+    }
+    public void setCancionFav(String Cancion){
+        this.CancionFav = Cancion;
+    }
+
 
     public void setNacionalidad(){
         this.nacionalidad = nacionalidad;
