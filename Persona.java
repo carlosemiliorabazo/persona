@@ -8,12 +8,14 @@ public class Persona {
     private int edad;
     private String comidaFavorita;
     private String nacionalidad;
+
     private int hijos;
     private int telefono;
     private String signozodiaco;
     private int peso;
     private int numeroSeguridadSocial;
     private string estado_civil;
+
 
     public String getNombre(){
         return nombre;
@@ -57,6 +59,10 @@ public class Persona {
 
     public int getPeso(){
         return peso;
+    }
+
+    public String getCodPostal(){
+        return cp;
     }
 
     public void setNombre(String nom){
@@ -123,9 +129,11 @@ public class Persona {
         this.telefono = tlf;
     }
 
+
     public void setSignozodiaco(String signozodiaco){
         this.signozodiaco = signozodiaco;
     }
 
    
+
 }
