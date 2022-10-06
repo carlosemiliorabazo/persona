@@ -12,7 +12,7 @@ public class Main {
         p.setDniSinLetra(Integer.parseInt(sc.nextLine()));
         System.out.println("Escribe tu edad: ");
         p.setEdad(Integer.parseInt(sc.nextLine()));
-        System.out.println("Escribe tu año de nacimiento: ");
+        System.out.println("Escribe tu año de nacimiento: ");//nuevo cambio
         p.setYear(Integer.parseInt(sc.nextLine()));
 
 
