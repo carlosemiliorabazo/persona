@@ -1,3 +1,6 @@
+
+Creacion de una rama propia para pasarlo al repositorio comun 
+
 # PERSONA
 Proyecto simple para practicar los pull request contra este repositorio en github.
 
