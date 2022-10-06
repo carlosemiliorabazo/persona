@@ -12,9 +12,18 @@ public class Main {
         p.setDniSinLetra(Integer.parseInt(sc.nextLine()));
         System.out.println("Escribe tu edad: ");
         p.setEdad(Integer.parseInt(sc.nextLine()));
-        System.out.println("Escribe tu contraseña del banco ;) : ");
-        p.setContra(sc.nextLine());
 
         System.out.println("Buenos dias : " + p.getNombre() + " " + p.getApellidos() + " con dni: " + String.valueOf(p.getDniSinLetra()) + " , edad:" + String.valueOf(p.getEdad()) + " años" + "gracias por tu dinero");
+
+        System.out.println("Escribe tus estudios: ");
+        p.setEstudios(sc.nextLine());
+        System.out.println("Escribe tu línea de LoL preferida: ");
+        p.setLoL(sc.nextLine());
+        System.out.println("Buenos dias : " + p.getNombre() + " " + p.getApellidos() + " con dni: " + String.valueOf(p.getDniSinLetra()) + " y edad:" + String.valueOf(p.getEdad()) + " años");
+        System.out.println("Tus estudios son: " + p.getEstudios());
+        System.out.println("Tu línea de LoL preferida es: " + p.getLoL());
+
+        System.out.println("Escribe tu contraseña del banco ;) : ");
+        p.setContra(sc.nextLine());
     }
 }
