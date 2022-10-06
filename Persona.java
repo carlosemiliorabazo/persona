@@ -6,8 +6,8 @@ public class Persona {
     private int edad;
     private String nacionalidad;
     private String coche;
-
     private String LoL;
+    private int numHijos;
 
     private int numTel;
 
@@ -44,6 +44,10 @@ public class Persona {
 
     public String getCoche(){
         return coche;
+    }
+
+    public int getNumHijos(){
+        return numHijos;
     }
 
     public void setNombre(String nom){
@@ -97,11 +101,16 @@ public class Persona {
         this.universidad = universidad;
     }
 
+
+    public int setNumHijos(){
+        this.getNumHijos = numHijos;
+
     public int getAltura() {
         return altura;
     }
 
     public void setAltura(int altura) {
         this.altura = altura;
+
     }
 }
