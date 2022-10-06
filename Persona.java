@@ -9,14 +9,16 @@ public class Persona {
 
     private String contraseniaBanco;
     private String LoL;
-
+    private int rank;
     private String universidad;
 
 
     public String getNombre(){
         return nombre;
     }
-
+    public int getRank(){
+        return rank;
+    }
     public String getApellidos(){
         return apellidos;
     }
@@ -50,6 +52,9 @@ public class Persona {
 
     public void setDniSinLetra(int dni){
         this.dniSinLetra = dni;
+    }
+    public void setRank(int rank){
+        this.rank = rank;
     }
     public void setContra(String cont){
         this.contraseniaBanco = cont;
