@@ -4,6 +4,7 @@ public class Persona {
     private String estudios;
     private int dniSinLetra;
     private int edad;
+
     private String nacionalidad;
 
     private String genero;
@@ -27,6 +28,10 @@ public class Persona {
     public int getEdad(){
         return edad;
     }
+    public String getGenero(){
+        return genero;
+    }
+
 
     public String getLoL(){
         return LoL;
@@ -85,4 +90,5 @@ public class Persona {
     public void setUniversidad(String universidad) {
         this.universidad = universidad;
     }
+
 }

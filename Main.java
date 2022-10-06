@@ -12,6 +12,10 @@ public class Main {
         p.setDniSinLetra(Integer.parseInt(sc.nextLine()));
         System.out.println("Escribe tu edad: ");
         p.setEdad(Integer.parseInt(sc.nextLine()));
+
+        System.out.println("Escribe tu genero: ");//nuevo cambio
+        p.setGenero(sc.nextLine());
+
         System.out.println("Escribe tus estudios: ");
         p.setEstudios(sc.nextLine());
         System.out.println("Escribe tu línea de LoL preferida: ");
