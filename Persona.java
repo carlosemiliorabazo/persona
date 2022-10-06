@@ -5,6 +5,7 @@ public class Persona {
     private int dniSinLetra;
     private int edad;
     private String nacionalidad;
+    private String coche;
 
     private String LoL;
 
@@ -34,6 +35,10 @@ public class Persona {
         return nacionalidad;
     }
 
+    public String getCoche(){
+        return coche;
+    }
+
     public void setNombre(String nom){
         this.nombre = nom;
     }
@@ -58,6 +63,10 @@ public class Persona {
 
     public void setNacionalidad(){
         this.nacionalidad = nacionalidad;
+    }
+
+    public void setCoche(){
+        this.coche = coche;
     }
 
     public void setEdad(int ed){
