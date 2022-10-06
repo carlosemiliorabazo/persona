@@ -9,7 +9,10 @@ public class Persona {
     private String LoL;
     private int numHijos;
 
+    private int numTel;
+
     private String universidad;
+    private int altura;
 
     public String getNombre(){
         return nombre;
@@ -25,6 +28,10 @@ public class Persona {
 
     public int getEdad(){
         return edad;
+    }
+
+    public int getNumTel(){
+        return numTel;
     }
 
     public String getLoL(){
@@ -65,6 +72,10 @@ public class Persona {
         this.LoL = LoL;
     }
 
+    public void setnumTel(int numTel){
+        this.numTel = numTel;
+    }
+
     public void setNacionalidad(){
         this.nacionalidad = nacionalidad;
     }
@@ -90,7 +101,16 @@ public class Persona {
         this.universidad = universidad;
     }
 
+
     public int setNumHijos(){
         this.getNumHijos = numHijos;
+
+    public int getAltura() {
+        return altura;
+    }
+
+    public void setAltura(int altura) {
+        this.altura = altura;
+
     }
 }
