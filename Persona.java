@@ -3,6 +3,9 @@ public class Persona {
     private String apellidos;
     private int dniSinLetra;
     private int edad;
+    private int hijos;
+
+    private String comidaFavorita;
 
     public String getNombre(){
         return nombre;
@@ -30,6 +33,20 @@ public class Persona {
 
     public void setDniSinLetra(int dni){
         this.dniSinLetra = dni;
+    }
+
+    public void setComidaFavorita(String comida) { this.comidaFavorita = comida;}
+
+    public String getComidaFavorita() { return comidaFavorita; }
+
+    public void setTrabajo(String trabajo)
+    {
+        if (hijos < 3){
+            System.out.println("No es familia numerosa");
+        }
+        if(hijos >= 3){
+            System.out.println("Tienes familia numerosa");
+        }
     }
 
     public void setEdad(int ed){
