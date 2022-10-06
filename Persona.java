@@ -9,6 +9,8 @@ public class Persona {
     private String LoL;
 
     private String universidad;
+    private String colorPelo;
+    private String pilotoFavorito;
 
     public String getNombre(){
         return nombre;
@@ -33,6 +35,7 @@ public class Persona {
     public String getNacionalidad(){
         return nacionalidad;
     }
+
 
     public void setNombre(String nom){
         this.nombre = nom;
@@ -75,5 +78,21 @@ public class Persona {
 
     public void setUniversidad(String universidad) {
         this.universidad = universidad;
+    }
+
+    public String getColorPelo() {
+        return colorPelo;
+    }
+
+    public void setColorPelo(String colorPelo) {
+        this.colorPelo = colorPelo;
+    }
+
+    public String getPilotoFavorito() {
+        return pilotoFavorito;
+    }
+
+    public void setPilotoFavorito(String pilotoFavorito) {
+        this.pilotoFavorito = pilotoFavorito;
     }
 }
